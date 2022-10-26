@@ -1,0 +1,175 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "adobe experience platform",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "what can I do",
+                        "please help",
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloIntent",
+                    "slots": [],
+                    "samples": [
+                        "hello",
+                        "welcome",
+                        "say welcome",
+                        "say hi",
+                        "say hello"
+                    ]
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "LdapIntent",
+                    "slots": [
+                        {
+                            "name": "ldap",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "login with no ldap",
+                        "login",
+                        "log in with ldap {ldap}",
+                        "login with ldap {ldap}",
+                        "log in {ldap}",
+                        "login {ldap}"
+                    ]
+                },
+                {
+                    "name": "GetProductsIntent",
+                    "slots": [],
+                    "samples": [
+                        "load products",
+                        "retrieve products",
+                        "fetch products",
+                        "get products"
+                    ]
+                },
+                {
+                    "name": "GetProductIntent",
+                    "slots": [
+                        {
+                            "name": "productId",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "get details for product {productId}",
+                        "view product {productId}",
+                        "show product {productId}",
+                        "get product {productId}"
+                    ]
+                },
+                {
+                    "name": "AddProductToCartIntent",
+                    "slots": [],
+                    "samples": [
+                        "add the product to the shopping cart",
+                        "add product to shopping cart",
+                        "add product to cart"
+                    ]
+                },
+                {
+                    "name": "PurchaseProductIntent",
+                    "slots": [],
+                    "samples": [
+                        "buy the product",
+                        "purchase the product",
+                        "purchase product"
+                    ]
+                },
+                {
+                    "name": "UseBrandIntent",
+                    "slots": [
+                        {
+                            "name": "brand",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "use company {brand}",
+                        "use brand {brand}",
+                        "select company {brand}",
+                        "select brand {brand}"
+                    ]
+                },
+                {
+                    "name": "UseEmailAddressIntent",
+                    "slots": [
+                        {
+                            "name": "emailAddress",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "define email address as {emailAddress}",
+                        "define emaill as {emailAddress}",
+                        "use email {emailAddress}",
+                        "use email address {emailAddress}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
