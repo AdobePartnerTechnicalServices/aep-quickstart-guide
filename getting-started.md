@@ -7,7 +7,7 @@ doc-type: tutorial
 activity: develop
 exl-id: 10ee9358-2fcd-4eb3-80d5-c8a963668299
 ---
-# 0. Getting started
+# 0.0 Getting started
 
 **Author: [Wouter Van Geluwe](https://www.linkedin.com/in/woutervangeluwe/)**
 

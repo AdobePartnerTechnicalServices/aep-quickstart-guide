@@ -8,13 +8,13 @@ doc-type: multipage
 recommendations: noDisplay,noCatalog
 ---
 
-# Quick Start Guide for Adobe Experience Platform {#aep-quickstart-guide}
+# Table of Contents {#aep-quickstart-guide}
 
 + [Tutorial Overview](overview.md)
 + [Architecture Overview](architecture.md)
 + [Video Overview](videos.md)
 + 0 - Getting started 
-  + [Overview](getting-started.md)
+  + [0.0 Overview](getting-started.md)
   + [0.1 Use Demo System Next to setup your Adobe Experience Platform Data Collection client property](ex1.md)
   + [0.2 Create your Datastream](ex2.md)
   + [0.3 Use the website](ex3.md)
