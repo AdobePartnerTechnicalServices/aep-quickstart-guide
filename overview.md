@@ -60,7 +60,7 @@ Go to [Videos](./videos.md).
 
 ## Content
 
-[0. Getting started](./modules/module0/getting-started.md)
+[0. Getting started](./getting-started.md)
 
 - **Audience:** All participants of the Comprehensive Technical Tutorial for Adobe Experience Platform
 - **Prerequisites:** Access to Demo System Next, Adobe Experience Platform and Adobe Experience Platform Data Collection. Access to the default Configuration ID of your Adobe Experience Platform environment.
