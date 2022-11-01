@@ -15,7 +15,7 @@ description: >-
 
 This tutorial is the perfect starting point for Data Engineers, Data Analysts, Data Architects, Data Scientists, Orchestration Engineers and Marketers to gain a full understanding of the business value of Adobe Experience Platform and all of its application services. Each lesson focuses on a real challenge businesses face in today's complex ecosystem of personalization and breaks down how Experience Platform solves that challenge in various hands-on exercises. Have a look at this video to understand the problems Adobe Experience Platform will help you solve.
 
->[![Overview Video Thumbnail](./assets/images/overview-video-thumbnail.png)](https://video.tv.adobe.com/v/344237?quality=12&enable=on)
+>[![Overview Video Thumbnail](assets/images/overview-video-thumbnail.png)](https://video.tv.adobe.com/v/344237?quality=12&enable=on)
 
 This tutorial offers clear insights in the following applications:
 
