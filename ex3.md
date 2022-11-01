@@ -10,19 +10,23 @@ description: Getting Started - Use the website
 
 # 0.3 Use the website
 
-## 0.3.1 Option 1: Continue from previous exercise
+## 0.3.1 Option 1: Access the web project from Quick Setup
 
-> If you don't have the below screen open anymore, go to exercise 0.3.2 instead.
+{% hint style="info" %}
+If you don't have the below screen open anymore, scroll down to exercise 0.3.2 instead.
+{% endhint %}
 
 After exercise 0.1, you had this result. Click to open the **Web Retail project** that was created for you.
 
 ![DSN](images/dsn5a.png)
 
-## 0.3.2 Option 2: Start with a new incognito browser window
+## 0.3.2 Option 2: Access the web project from DSN Projects
 
 In case you had accidentally closed your browser window, or for future demo or enablement sessions, you can also access your website project by going to [https://builder.adobedemo.com/projects](https://builder.adobedemo.com/projects). After logging in with your Adobe ID, you'll see this. Click your website project to open it.
 
 ![DSN](images/web8.png)
+
+## 0.3.3 Hook up and start the project in a new incognito browser window
 
 You can now follow the below flow to access the website. Click **Integrations**.
 
