@@ -1,5 +1,5 @@
 ---
-title: Getting Started - Use the website
+title: Getting Started - Set up the website
 kt: 5342
 audience: Data Engineer, Data Architect
 doc-type: tutorial
@@ -8,7 +8,7 @@ exl-id: 4879a412-7bf7-40ec-ba4c-c01b93f48a12
 description: Getting Started - Use the website
 ---
 
-# 0.3 Use the website
+# 0.3 Set up the website
 
 ## 0.3.1 Option 1: Access the web project from Quick Setup
 

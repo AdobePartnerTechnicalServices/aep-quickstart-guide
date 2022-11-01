@@ -1,5 +1,5 @@
 ---
-title: Getting Started - Use the mobile app
+title: Getting Started - Set up the mobile app
 kt: 5342
 audience: Data Engineer, Data Architect
 doc-type: tutorial
@@ -8,7 +8,7 @@ exl-id: 8f5e6d82-e375-4264-8eef-9ea2bdf1bd22
 description: Getting Started - Use the mobile app
 ---
 
-# 0.4 Use the mobile app
+# 0.4 Set up the mobile app
 
 ## 0.4.1 Download the app
 
