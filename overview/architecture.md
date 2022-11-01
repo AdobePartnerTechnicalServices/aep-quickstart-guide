@@ -23,7 +23,7 @@ You can find additional interesting videos [on our YouTube channel](https://www.
 
 ## Adobe Experience Platform Architecture Overview
 
->![[Architecture Video Thumbnail](./assets/images/architecture-video-thumbnail.png)](https://video.tv.adobe.com/v/35266?quality=12&learn=on)
+>[![Architecture Video Thumbnail](./assets/images/architecture-video-thumbnail.png)](https://video.tv.adobe.com/v/35266?quality=12&learn=on)
 
 ## Architecture Overview
 
