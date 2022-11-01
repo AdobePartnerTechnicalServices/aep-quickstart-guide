@@ -18,34 +18,6 @@ After exercise 0.1, you had this result. Click to open the **Web Retail project*
 
 ![DSN](images/dsn5a.png)
 
-You'll then see this. Click **Integrations**.
-
-![DSN](images/web1.png)
-
-On the **Integrations** page, you need to select the Data Collection property that was created in exercise 0.1.
-
-![DSN](images/web2.png)
-
-You'll then see your demo website open up. Select the URL and copy it to your clipboard.
-
-![DSN](images/web3.png)
-
-Open a new incognito browser window.
-
-![DSN](images/web4.png)
-
-Paste the URL of your demo website, which you copied in the previous step. You'll then be asked to login using your Adobe ID.
-
-![DSN](images/web5.png)
-
-Select your account type and complete the login process.
-
-![DSN](images/web6.png)
-
-You'll then see your website loaded in an incognito browser window. For every demonstration, you'll need to use a fresh, incognito browser window to load your demo website URL.
-
-![DSN](images/web7.png)
-
 ## 0.3.2 Option 2: Start with a new incognito browser window
 
 In case you had accidentally closed your browser window, or for future demo or enablement sessions, you can also access your website project by going to [https://builder.adobedemo.com/projects](https://builder.adobedemo.com/projects). After logging in with your Adobe ID, you'll see this. Click your website project to open it.
