@@ -17,9 +17,10 @@ Go to [https://bit.ly/dx-demo-app](https://bit.ly/dx-demo-app) on your computer.
 
 Use the **Camera** app on your smartphone to install the mobile app for your device's OS. For this enablement, you need to install the **Version 2.x** which uses the Adobe Experience Platform Mobile SDK's.
 
->[!NOTE]
->
->After installing the app for the first time on an iOS device, you might get an error message when trying to open the app which says: **Untrusted Enterprise Developer**. In order to fix this, you need to go to **Settings > General > Device Management > Adobe Systems Inc.** and click **Trust Adobe Systems Inc.**.
+{% hint style="info" %}
+After installing the app for the first time on an iOS device, you might get an error message when trying to open the app which says: **Untrusted Enterprise Developer**. In order to fix this, you need to go to **Settings > General > Device Management > Adobe Systems Inc.** and click **Trust Adobe Systems Inc.**.
+
+{% endhint %}
 
 Once the app is installed, you'll find it on your device's home screen. Click the icon to open the app.
 

@@ -24,9 +24,9 @@ exl-id: 10ee9358-2fcd-4eb3-80d5-c8a963668299
 - Access to Adobe Experience Platform Launch: [https://experience.adobe.com/#/data-collection/](https://experience.adobe.com/#/data-collection/)
 - Access to Demo System Next: [https://dashboard.adobedemo.com/](https://dashboard.adobedemo.com/)
 
->[!IMPORTANT] 
->
->This tutorial was created to facilitate a particular workshop format. It uses specific systems and accounts to which you might not have access. Even without access, we think you can still learn a lot by reading through this very detailed content. If you're a participant in one of the workshops and need your access credentials, please contact your Adobe representative who will provide you with the required information.
+{% hint style="warning" %}
+This tutorial was created to facilitate a particular workshop format. It uses specific systems and accounts to which you might not have access. Even without access, we think you can still learn a lot by reading through this very detailed content. If you're a participant in one of the workshops and need your access credentials, please contact your Adobe representative who will provide you with the required information.
+{% endhint %}
 
 
 ## Exercises
@@ -47,8 +47,8 @@ In this exercise you'll setup the website so you can use it for demonstrations a
 
 In this exercise you'll setup the mobile application so you can use it for demonstrations and enablement.
 
->[!NOTE]
->
->Thank you for investing your time in learning all there is to know about Adobe Experience Platform. If you have questions, want to share general feedback of have suggestions on future content, please contact Wouter Van Geluwe directly, by sending an email to **vangeluw@adobe.com**.
+{% hint style="info" %}
+Thank you for investing your time in learning all there is to know about Adobe Experience Platform. If you have questions, want to share general feedback of have suggestions on future content, please contact Wouter Van Geluwe directly, by sending an email to **vangeluw@adobe.com**.
+{% endhint %}
 
 [Go Back to All Modules](./overview.md)

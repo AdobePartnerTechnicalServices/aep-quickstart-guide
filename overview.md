@@ -11,7 +11,7 @@ exl-id: 88c19383-c185-40f0-b118-6cb82db0ce0e
 
 This tutorial is the perfect starting point for Data Engineers, Data Analysts, Data Architects, Data Scientists, Orchestration Engineers and Marketers to gain a full understanding of the business value of Adobe Experience Platform and all of its application services. Each lesson focuses on a real challenge businesses face in today's complex ecosystem of personalization and breaks down how Experience Platform solves that challenge in various hands-on exercises. Have a look at this video to understand the problems Adobe Experience Platform will help you solve.
 
->[!VIDEO](https://video.tv.adobe.com/v/344237?quality=12&enable=on)
+>![[Overview Video Thumbnail](./assets/images/overview-video-thumbnail.png)](https://video.tv.adobe.com/v/344237?quality=12&enable=on)
 
 This tutorial offers clear insights in the following applications:
 
@@ -31,9 +31,10 @@ After completing this tutorial, you will be able to:
 - Access to Adobe Experience Platform Data Collection: [https://experience.adobe.com/#/data-collection/](https://experience.adobe.com/#/data-collection/)
 - Access to Demo System: [https://dashboard.adobedemo.com/](https://dashboard.adobedemo.com/)
 
->[!IMPORTANT]
->
->This tutorial was created to facilitate a particular workshop format. It uses specific systems and accounts to which you might not have access. Even without access, we think you can still learn a lot by reading through this very detailed content. If you're a participant in one of the workshops and need your access credentials, please contact **spphelp@adobe.com**, who will provide you with the required information.
+
+{% hint style="warning" %}
+This tutorial was created to facilitate a particular workshop format. It uses specific systems and accounts to which you might not have access. Even without access, we think you can still learn a lot by reading through this very detailed content. If you're a participant in one of the workshops and need your access credentials, please contact **spphelp@adobe.com**, who will provide you with the required information.
+{% endhint%}
 
 ## About this tutorial
 
@@ -68,6 +69,7 @@ Go to [Videos](./videos.md).
 - **Time Investment:** 30 minutes
 
 
->[!NOTE]
->
->Thank you for investing your time in learning all there is to know about Adobe Experience Platform. If you have questions, want to share general feedback of have suggestions on future content, please contact the Solution Partner Portal, by sending an email to **spphelp@adobe.com**.
+
+{% hint style="info" %}
+Thank you for investing your time in learning all there is to know about Adobe Experience Platform. If you have questions, want to share general feedback of have suggestions on future content, please contact the Solution Partner Portal, by sending an email to **spphelp@adobe.com**.
+{% endhint %}
