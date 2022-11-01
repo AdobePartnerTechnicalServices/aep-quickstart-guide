@@ -75,8 +75,10 @@ Now, go back to **Home** in the app. Your app is now ready to be used.
 
 ![DSN](images/mobileappn8.png)
 
-You've now completed the Quick-Start Guide.
+You've now set up the Mobile App.
 
-[Go Back to Module 0](getting-started.md)
+Next Step: [0.5 Ingest Data to AEP through the Website](ex5.md)
 
-[Go Back to OVerview](./)
+[Go Back to Getting Started](getting-started.md)
+
+[Go Back to Overview](./)

@@ -58,6 +58,6 @@ You'll then see your website loaded in an incognito browser window. For every de
 
 Next Step: [0.4 Use the mobile app](ex4.md)
 
-[Go Back to Module 0](getting-started.md)
+[Go Back to Getting Started](getting-started.md)
 
 [Go Back to Overview](./)

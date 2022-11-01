@@ -166,6 +166,6 @@ Your changes are now being published and will be ready in a couple of minutes.
 
 Next Step: [0.3 Use the website](ex3.md)
 
-[Go Back to Module 0](getting-started.md)
+[Go Back to Getting Started](getting-started.md)
 
 [Go Back to Overview](./)
