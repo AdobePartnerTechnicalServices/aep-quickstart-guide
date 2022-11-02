@@ -54,8 +54,6 @@ Once the quick setup process has completed, you'll have:
 
 Keep this screen open as you'll need it in the next steps.
 
-Next Step: [0.2 Create your Datastream](ex2.md)
-
 [Go Back to Getting Started](getting-started.md)
 
 [Go Back to Overview](./)

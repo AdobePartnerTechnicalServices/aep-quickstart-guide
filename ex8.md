@@ -55,8 +55,6 @@ You'll now see the information that would ideally be displayed in the Call Cente
 
 ![Demo](./images/20.png)
 
-Next Step: [0.9 Set up and use the AEP API to visualize your Real-Time Customer Profile](ex9.md)
-
 [Go Back to Getting Started](getting-started.md)
 
 [Go Back to All Modules](./)

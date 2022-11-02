@@ -56,8 +56,6 @@ You'll then see your website loaded in an incognito browser window. For every de
 
 ![DSN](images/web7.png)
 
-Next Step: [0.4 Use the mobile app](ex4.md)
-
 [Go Back to Getting Started](getting-started.md)
 
 [Go Back to Overview](./)

@@ -77,8 +77,6 @@ Now, go back to **Home** in the app. Your app is now ready to be used.
 
 You've now set up the Mobile App.
 
-Next Step: [0.5 Ingest Data to AEP through the Website](ex5.md)
-
 [Go Back to Getting Started](getting-started.md)
 
 [Go Back to Overview](./)
