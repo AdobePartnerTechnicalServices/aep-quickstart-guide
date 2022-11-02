@@ -15,13 +15,13 @@ In this exercise, you'll login to Adobe Experience Platform and view your own Re
 
 In the Real-time Customer Profile, all profile data is shown alongside event data, as well as existing segment memberships. The data shown can come from anywhere, from Adobe applications and external solutions. This is the most powerful view in Adobe Experience Platform, the true experience system of record.
 
-## 3.2.1 Use the Customer Profile View in Adobe Experience Platform
+## 0.7.1 Use the Customer Profile View in Adobe Experience Platform
 
 Go to [Adobe Experience Platform](https://experience.adobe.com/platform). After logging in, you'll land on the homepage of Adobe Experience Platform.
 
-![Data Ingestion](.images/home.png)
+![Data Ingestion](./images/home.png)
 
-Before you continue, you need to select a **sandbox**. The sandbox to select is named ``--aepSandboxId--``. You can do this by clicking the text **Production Prod** in the blue line on top of your screen. After selecting the appropriate [!UICONTROL sandbox], you'll see the screen change and now you're in your dedicated [!UICONTROL sandbox].
+Before you continue, you need to select a **sandbox**. The sandbox to select is named ``--aepSandboxId--``. You can do this by clicking the text **Production Prod** in the blue line on top of your screen. After selecting the appropriate sandbox, you'll see the screen change and now you're in your dedicated sandbox.
 
 ![Data Ingestion](./images/sb1.png)
 
