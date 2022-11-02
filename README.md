@@ -61,12 +61,10 @@ Go to [Videos](overview/videos.md).
 
 ## Content
 
-[0. Getting started](getting-started.md)
-
 * **Audience:** All participants of the Comprehensive Technical Tutorial for Adobe Experience Platform
 * **Prerequisites:** Access to Demo System Next, Adobe Experience Platform and Adobe Experience Platform Data Collection. Access to the default Configuration ID of your Adobe Experience Platform environment.
 * **Description:** In this foundational module, you will setup everything so that you can access and use the demo environment.
-* **Time Investment:** 30 minutes
+* **Time Investment:** 2 hours
 
 
 {% hint style="info" %}
