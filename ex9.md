@@ -1419,6 +1419,8 @@ This is currently all of the available ExperienceEvent data in Platform for this
 
 You're not required to use the ECID to request ExperienceEvent data from Adobe Experience Platform's Real-time Profile, you can use any ID in any namespace to request this data. 
 
+Next step: [0.10 Install the Adobe Experience Platform Debugger](./ex10.md)
+
 [Go Back to Getting Started](getting-started.md)
 
 [Go Back to All Modules](./)
