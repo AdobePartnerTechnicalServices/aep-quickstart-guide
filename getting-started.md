@@ -40,13 +40,41 @@ In this exercise you'll use Demo System Next to setup your Launch properties for
 
 In this exercise you'll use Demo System Next to setup your Launch properties for Web and Mobile.
 
-[0.3 Use the website](ex3.md)
+[0.3 Set up the website](ex3.md)
 
 In this exercise you'll setup the website so you can use it for demonstrations and enablement.
 
-[0.4 Use the mobile app](ex4.md)
+[0.4 Set up the mobile app](ex4.md)
 
 In this exercise you'll setup the mobile application so you can use it for demonstrations and enablement.
+
+[0.5 Ingest Data to AEP through the Website](ex5.md)
+
+In this exercise you'll ingest data to AEP through the website and use the Profile Viewer in order to see what events and profile fragments are being ingested.
+
+[0.6 Ingest Data to AEP through the Mobile App](ex6.md)
+
+In this exercise you'll ingest data to AEP through the Mobile App and use the Profile Viewer in order to see what events and profile fragments are being ingested.
+
+[0.7 Visualize your own Real-time Customer Profile - UI](ex7.md)
+
+In this exercise, you'll login to Adobe Experience Platform and view your own Real-time Customer Profile in the UI.
+
+[0.8 See your Real-time Customer Profile in action in the Call Center](ex8.md)
+
+In this exercise, you'll see how a customer's information can be quickly called up in a Call Center environment.
+
+[0.9 Set up and use the AEP API to visualize your Real-Time Customer Profile](ex9.md)
+
+In this exercise, you'll use Postman and Adobe I/O to query Adobe Experience Platform's APIs to view your own real-time customer profile.
+
+[0.10 Install the Experience Platform Debugger Extension](ex10.md)
+
+In this exercise, you'll install the Adobe Experience Platform Debugger extension.
+
+[0.11 What if I want to demonstrate basic AEP concepts directly on a live website?](ex11.md)
+
+In this exercise, you'll install the Adobe Experience Platform Debugger extension.
 
 {% hint style="info" %}
 Thank you for investing your time in learning all there is to know about Adobe Experience Platform. If you have questions, want to share general feedback of have suggestions on future content, please contact Wouter Van Geluwe directly, by sending an email to **vangeluw@adobe.com**.
