@@ -14,11 +14,11 @@ Once you've got access to Demo System, proceed with the below steps.
 
 Go to [https://dashboard.adobedemo.com/](https://dashboard.adobedemo.com/). Select your sandbox and click **Quick Setup**.
 
-![DSN](images/dsnh1.png)
+![DSN](../images/dsnh1.png)
 
 You'll see this:
 
-![DSN](images/dsnhome.png)
+![DSN](../images/dsnhome.png)
 
 Under **General** - **Environment**, select your Adobe Experience Platform instance and your sandbox, in this case:
 
@@ -26,21 +26,21 @@ Under **General** - **Environment**, select your Adobe Experience Platform insta
 * **aepenablementfy22**
 * Configuration: please select **Global v2.0**
 
-![DSN](images/dsn1.png)
+![DSN](../images/dsn1.png)
 
 Next, select the preset **Enablement User** and click **Start**.
 
-![DSN](images/dsn2.png)
+![DSN](../images/dsn2.png)
 
 In the popup, enter a name for your Data Collection property. Please use this naming convention: **Demo System (DD/MM/YYYY)**. FYI: your LDAP will be appended automatically, you do not need to add it yourself.
 
 Click **Start**.
 
-![DSN](images/dsn3.png)
+![DSN](../images/dsn3.png)
 
 You'll then see this popup, which is showing you the progress while creating your website and mobile app projects and your data collection properties.
 
-![DSN](images/dsn4.png)
+![DSN](../images/dsn4.png)
 
 Once the quick setup process has completed, you'll have:
 
@@ -50,10 +50,10 @@ Once the quick setup process has completed, you'll have:
 * 1 Data Collection property for web, which you'll use to collect data from the website
 * 1 Data Collection property for mobile, which you'll use to collect data from the mobile app
 
-![DSN](images/dsn5.png)
+![DSN](../images/dsn5.png)
 
 Keep this screen open as you'll need it in the next steps.
 
-[Go Back to Getting Started](getting-started.md)
+[Go Back to Getting Started](./)
 
-[Go Back to Overview](./)
+[Go Back to Overview](../)

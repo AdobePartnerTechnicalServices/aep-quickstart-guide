@@ -44,4 +44,4 @@ You can find additional interesting videos [on our YouTube channel](https://www.
 | Launch Client Side, Web SDK and Launch Server Side                 | Implement Launch Client Side, Edge and Launch Server Side                                    | [VIDEO](https://video.tv.adobe.com/v/331987?quality=12\&learn=on) |
 | Tealium IQ, Web SDK and Launch Server Side                         | Implement Edge and Launch Server Side using a non-Adobe Tag Management Solution              | [VIDEO](https://video.tv.adobe.com/v/331986?quality=12\&learn=on) |
 
-[Go Back to All Modules](../)
+[Go Back to All Modules](broken-reference)
