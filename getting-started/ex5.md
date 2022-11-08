@@ -101,7 +101,3 @@ On the Profile Viewer panel, go to Experience Events. You'll see the 2 products 
 ![Demo](../images/pv12.png)
 
 You've now ingested data into Adobe Experience Platform and you've linked that data to identifiers like ECIDs and email-addresses. The goal of this is to understand the business context of what you're about to do. In the next exercise, you'll start configuring everything you need to make all that data ingestion possible.
-
-[Go Back to Getting Started](./)
-
-[Go Back to All Modules](../)

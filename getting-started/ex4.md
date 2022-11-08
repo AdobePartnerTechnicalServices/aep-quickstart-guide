@@ -75,7 +75,3 @@ Now, go back to **Home** in the app. Your app is now ready to be used.
 ![DSN](../images/mobileappn8.png)
 
 You've now set up the Mobile App.
-
-[Go Back to Getting Started](./)
-
-[Go Back to Overview](../)

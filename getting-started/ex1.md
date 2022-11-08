@@ -53,7 +53,3 @@ Once the quick setup process has completed, you'll have:
 ![DSN](../images/dsn5.png)
 
 Keep this screen open as you'll need it in the next steps.
-
-[Go Back to Getting Started](./)
-
-[Go Back to Overview](../)

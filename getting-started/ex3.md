@@ -56,6 +56,3 @@ You'll then see your website loaded in an incognito browser window. For every de
 
 ![DSN](../images/web7.png)
 
-[Go Back to Getting Started](./)
-
-[Go Back to Overview](../)

@@ -39,7 +39,3 @@ Now go back to your desktop computer and refresh the homepage, after which you'l
 ![Demo](../images/lb\_x\_aftermobile.png)
 
 You've now ingested data into Adobe Experience Platform and you've linked that data to identifiers like ECIDs and email addresses. The goal of this exercise was to understand the business context of what you're about to do. You've now effectively built a real-time, cross-device customer profile. In the next exercise, you'll go ahead and visualize your profile in Adobe Experience Platform.
-
-[Go Back to Getting Started](./)
-
-[Go Back to All Modules](../)

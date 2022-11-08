@@ -55,7 +55,3 @@ Select **Phone number** in the dropdown and enter the phone number that you used
 You'll now see the information that would ideally be displayed in the Call Center, so that the Call Center employees have all relevant information available immediately when speaking to a customer.
 
 ![Demo](../images/20.png)
-
-[Go Back to Getting Started](./)
-
-[Go Back to All Modules](../)

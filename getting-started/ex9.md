@@ -1417,7 +1417,3 @@ Also, when the X-ray panel shows ExperienceEvent information, it is using the be
 This is currently all of the available ExperienceEvent data in Platform for this ECID.
 
 You're not required to use the ECID to request ExperienceEvent data from Adobe Experience Platform's Real-time Profile, you can use any ID in any namespace to request this data.
-
-[Go Back to Getting Started](./)
-
-[Go Back to All Modules](../)

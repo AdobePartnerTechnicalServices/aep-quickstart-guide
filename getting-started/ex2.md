@@ -163,7 +163,3 @@ Click **Add All Changed Resources**, then click **Save & Build for Development**
 ![Name the Edge Configuration and save](../images/edgeconfig17m.png)
 
 Your changes are now being published and will be ready in a couple of minutes.
-
-[Go Back to Getting Started](./)
-
-[Go Back to Overview](../)
