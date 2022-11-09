@@ -19,15 +19,15 @@ You'll be implementing the Web SDK on the browser in the next exercise. It will 
 
 ## Create a Datastream
 
-In [Exercise 0.2](./../module0/ex2.md) you already created a Datastream, but we didn't discuss the background and reason for being of the Datastream. 
+In [Exercise 0.2](../gettingstarted/ex2.md) you already created a Datastream, but we didn't discuss the background and reason for being of the Datastream. 
 
 A Datastream tells the Adobe Edge servers where to send the data after it is collected by the Web SDK. For example, do you want to send the data to Adobe Experience Platform? Adobe Analytics? Adobe Audience Manager? Adobe Target? Datastreams are managed in the Adobe Experience Platform Data Collection user interface and are critical to Platform data collection with Web SDK, regardless of whether or not you are implementing Web SDK via Adobe Experience Platform Data Collection.
 
-Let's review your **[!UICONTROL Datastream]**:
+Let's review your **Datastream**:
 
 Go to [https://experience.adobe.com/launch/](https://experience.adobe.com/launch/).
 
-Click **[!UICONTROL Datastreams]** or **[!UICONTROL Datastreams (Beta)]** in the left menu.
+Click **Datastreams** or **Datastreams (Beta)** in the left menu.
 
 ![Click Datastream icon in the left navigation](./images/edgeconfig1.png)
 
@@ -59,9 +59,3 @@ For this datastream...
 - If you want to use the **Personalization Destinations**, you need to check the box for Personalization Destinations.
 
 For now, no other configuration is needed for your Datastream.
-
-Next Step: [1.3 Introduction to Adobe Experience Platform Data Collection](./ex3.md)
-
-[Go Back to Module 1](./data-ingestion-launch-web-sdk.md)
-
-[Go Back to All Modules](./../../overview.md)

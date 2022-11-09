@@ -24,7 +24,3 @@ Let's highlight the benefits of using Web SDK to ingest data into Adobe Experien
 - Tech Blog: [Simplifying Customer Workflows with Adobe Experience Platform Web SDK](https://medium.com/adobetech/simplifying-customer-workflows-with-adobe-experience-platform-web-sdk-4e54fe134f4a)
 - Tech Blog: [Streamlining Client-Server Integrations with Adobe Experience Platform Experience Edge](https://medium.com/adobetech/streamlining-client-server-integrations-with-adobe-experience-platform-experience-edge-1caaef887172)
 - Tech Blog: [Unify Your Adobe Experience Platform Services with Adobe Experience Platform Web SDK](https://medium.com/adobetech/unify-your-adobe-experience-platform-services-with-adobe-experience-platform-web-sdk-75cf6851a9fc)
-
-[Go Back to Module 1](./data-ingestion-launch-web-sdk.md)
-
-[Go Back to All Modules](../../overview.md)

@@ -22,7 +22,7 @@ Adobe Experience Platform Data Collection is used by brands for a number of use 
 
 Go to [Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection/).
 
-Go to **Tags**. Youre now seeing the **[!UICONTROL Properties]** view. Properties listed here are for tutorial management. These properties represent...
+Go to **Tags**. Youre now seeing the **Properties** view. Properties listed here are for tutorial management. These properties represent...
 
 - App and Web properties
 - Different websites serving customers in different ways. For example Luma Retail would have one property, Luma Travel would have another
@@ -36,10 +36,10 @@ Now, take a look at the left rail.
 
 ![Launch Left Rail](./images/launch2.png)
 
-- **[!UICONTROL Tags]** gives an overview of all client-side properties
-- **[!UICONTROL App Surfaces]** gives an overview of all App Configurations to enable Push Notifications (which is used/enabled in combination with Project Sierra)
-- **[!UICONTROL Datastreams]** are explored in the [next exercise](./ex2.md)
-- **[!UICONTROL Event Forwarding]** gives an overview of all server-side properties which are explored in [Module 14 - Real-Time CDP Connections: Event Forwarding](../module14/aep-data-collection-ssf.md)
+- **Tags** gives an overview of all client-side properties
+- **App Surfaces** gives an overview of all App Configurations to enable Push Notifications (which is used/enabled in combination with Project Sierra)
+- **UICONTROL Datastreams** are explored in the [next exercise](./ex2.md)
+- **Event Forwarding** gives an overview of all server-side properties which are explored in [Module 14 - Real-Time CDP Connections: Event Forwarding](../module14/aep-data-collection-ssf.md)
 
 ## Further Information
 
@@ -50,9 +50,3 @@ Some further reading for those interested in understanding Adobe Experience Plat
 - [Implement Adobe Experience Cloud with Web SDK tutorial](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html)
 - [Set-up user permissions](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html)
 - [API documentation](https://developer.adobelaunch.com/api/)
-
-Next Step: [1.2 Edge Network, Datastreams and Server Side Data Collection](./ex2.md)
-
-[Go Back to Module 1](./data-ingestion-launch-web-sdk.md)
-
-[Go Back to All Modules](./../../overview.md)

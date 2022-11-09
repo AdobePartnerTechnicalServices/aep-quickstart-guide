@@ -23,29 +23,29 @@ This is the Adobe Experience Platform Data Collection Properties page you saw be
 
 ![Properties page](./images/launch1.png) 
 
-In module 0, Demo System created two Client properties for you: one for the website and one for the mobile app. Find them by searching for `--demoProfileLdap--` in the **[!UICONTROL Search]** box.
+In module 0, Demo System created two Client properties for you: one for the website and one for the mobile app. Find them by searching for `--demoProfileLdap--` in the **Search** box.
 
 ![Search box](./images/property6.png)
 
 Open the **Web** property.
 
-You'll then see the Property Overview page. Click on **[!UICONTROL Extensions]** in the left rail. Click the **[!UICONTROL Configure]** button under the Adobe Experience Platform Web SDK Extension.
+You'll then see the Property Overview page. Click on **Extensions** in the left rail. Click the **Configure** button under the Adobe Experience Platform Web SDK Extension.
 
 ![Property Overview page](./images/property7.png)
 
-Welcome to the the Adobe Experience Platform Web SDK! Here you can configure the extension with the Datastream you created in [Exercise 0.2](./../module0/ex2.md) as well as some more advanced configuration. You're only going to configure two settings for this exercise.
+Welcome to the the Adobe Experience Platform Web SDK! Here you can configure the extension with the Datastream you created in [Exercise 0.2](./../getting-started/ex2.md) as well as some more advanced configuration. You're only going to configure two settings for this exercise.
 
-The default Edge Domain is always **edge.adobedc.net**. If you've implemented a CNAME configuration in your Adobe Experience Cloud or Adobe Experience Platform environment, you'll need to update the **[!UICONTROL Edge Domain]**. Your Adobe Experience Platform instance is using this Edge Domain: `--webSdkEdgeDomain--`. 
+The default Edge Domain is always **edge.adobedc.net**. If you've implemented a CNAME configuration in your Adobe Experience Cloud or Adobe Experience Platform environment, you'll need to update the **Edge Domain**. Your Adobe Experience Platform instance is using this Edge Domain: `--webSdkEdgeDomain--`. 
 
 If your instance's Edge Domain is different from default one, please update the Edge Domain. An Edge Domain makes it possible to configure a 1st party tracking server, which then uses a CNAME configuration in the backend to ensure data is collected into Adobe.
 
 ![Extensions home](./images/property9edgedomain.png)
 
-Now, make sure the **[!UICONTROL Choose from list]** radio button is selected under the **[!UICONTROL Datastreams]** heading, and select your datastream which is named: `--demoProfileLdap-- - Demo System Datastream`, from the list in the **[!UICONTROL Datastream]** box.
+Now, make sure the **Choose from list** radio button is selected under the **Datastreams** heading, and select your datastream which is named: `--demoProfileLdap-- - Demo System Datastream`, from the list in the **Datastream** box.
 
 ![Extensions home](./images/property9edge.png)
 
-Click **[!UICONTROL Save]** to go back to the Extensions view.
+Click **Save** to go back to the Extensions view.
 
 ![Adobe Experience Platform Web SDK homepage](./images/save.png)
 
@@ -63,7 +63,7 @@ Click on Data Elements in the left rail to be taken to the Data Elements page.
 
 >[!NOTE]
 >
->You're only editing a data element in this exercise, but you can see the **[!UICONTROL Add Data Element]** button on this page, which would be used to add a new variable to the data dictionary. This could then be used throughout Adobe Experience Platform Data Collection. Feel free to look at some of the other already existing data elements, mostly using local storage as the data source.
+>You're only editing a data element in this exercise, but you can see the **Add Data Element** button on this page, which would be used to add a new variable to the data dictionary. This could then be used throughout Adobe Experience Platform Data Collection. Feel free to look at some of the other already existing data elements, mostly using local storage as the data source.
 
 In the search bar, type **XDM - Product View** and click on the Data Element it returns.
 
@@ -79,7 +79,7 @@ Click on **siteSection**. You now see that **siteSection** isn't linked to any d
 
 ![Navigate to the site section](./images/dataelement3.png)
 
-Scroll up, and enter the text `%Product Category%`. Click **[!UICONTROL Save]**.
+Scroll up, and enter the text `%Product Category%`. Click **Save**.
 
 ![Save](./images/dataelement4.png)
 
@@ -93,15 +93,15 @@ Build rules to integrate the data and functionality of marketing and ad tech tha
 
 Let's break-down the rule that sends data on Article pages.
 
-Click on **[!UICONTROL Rules]** in the left rail.
+Click on **Rules** in the left rail.
 
-**[!UICONTROL Search]** for `Product View`.
+**Search** for `Product View`.
 
 Click on the rule that is returned.
 
 ![Media - Article Pages rule search](./images/rule1.png)
 
-Let's have a look at the individual elements that make up this rule. For all rules If a specified **[!UICONTROL Event]** occurs, the **[!UICONTROL Conditions]** are evaluated, then the specified **[!UICONTROL Actions]** take place if needed.
+Let's have a look at the individual elements that make up this rule. For all rules If a specified **Event** occurs, the **Conditions** are evaluated, then the specified **Actions** take place if needed.
 
 ![Media - Article Pages rule](./images/rule2.png)
 
@@ -113,11 +113,11 @@ This lists some of the standard interactions you can use to signal Adobe Experie
 
 ![Events](./images/rule3.png)
 
-Click **[!UICONTROL Cancel]** to go back to the Rule.
+Click **Cancel** to go back to the Rule.
 
 Click on the Action **Send "Product View" Event to AEP**.
 
-Here you can see the data that's being send to the Adobe Edge by the Adobe Experience Platform Web SDK. More specifically, this is using the **alloy** **[!UICONTROL Instance]** of the Web SDK. Setting up another **[!UICONTROL Instance]** would allow for different Datastreams to be used, among other things. You've specified the event **[!UICONTROL Type]** as an **commerce.productViews** and the XDM Data you're sending is the **XDM - Product View** data element you changed earlier.
+Here you can see the data that's being send to the Adobe Edge by the Adobe Experience Platform Web SDK. More specifically, this is using the **alloy** **Instance** of the Web SDK. Setting up another **Instance** would allow for different Datastreams to be used, among other things. You've specified the event **Type** as an **commerce.productViews** and the XDM Data you're sending is the **XDM - Product View** data element you changed earlier.
 
 ![Send Event action](./images/rule5.png)
 
@@ -125,9 +125,9 @@ Now that you've looked at the Rule, you can publish all your changes in Adobe Ex
 
 ## 1.3.4 Publish in a Library
 
-Finally, in order to validate the rule and data element you just updated, you need to publish a library containing the edited items in our property. There are a few quick steps you need to take in the **[!UICONTROL Publishing]** section of Adobe Experience Platform Data Collection.
+Finally, in order to validate the rule and data element you just updated, you need to publish a library containing the edited items in our property. There are a few quick steps you need to take in the **Publishing** section of Adobe Experience Platform Data Collection.
 
-Click **[!UICONTROL Publishing Flow]** in the left navigation
+Click **Publishing Flow** in the left navigation
 
 Click on the existing library, called **Main**.
 
@@ -146,9 +146,3 @@ Click the **Save & Build for Development** button.
 The library may take a few minutes to build and when it is complete it will display a green dot to the left of the library name.
 
 As you can see on the Publishing Flow screen, there is a lot more to the publishing process in Adobe Experience Platform Data Collection which is beyond the scope of this tutorial. We are just going to use a single library in our Development environment.
-
-Next Step: [1.4 Client-side Web Data Collection](./ex4.md)
-
-[Go Back to Module 1](./data-ingestion-launch-web-sdk.md)
-
-[Go Back to All Modules](./../../overview.md)

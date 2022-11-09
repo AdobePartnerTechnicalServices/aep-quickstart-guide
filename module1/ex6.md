@@ -26,9 +26,3 @@ You'll then see this. To enable Adobe Target, click **+Add Service**.
 You'll then see this. Select the service **Adobe Target**, after which you can optionally provide additional information. At this moment, there's no need to save this, so click **Cancel**.
 
 ![AEP Debugger](./images/at1.png)
-
-Next Step: [1.7 XDM Schema requirements in Adobe Experience Platform](./ex7.md)
-
-[Go Back to Module 1](./data-ingestion-launch-web-sdk.md)
-
-[Go Back to All Modules](./../../overview.md)

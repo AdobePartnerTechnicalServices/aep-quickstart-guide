@@ -30,9 +30,3 @@ On that Schema, you'll see that the field group **AEP Web SDK ExperienceEvent Mi
 ![AEP Debugger](./images/exp4.png)
 
 In [Module 2](./../module2/data-ingestion.md) you'll learn how to add field groups to schemas.
-
-Next Step: [Summary and benefits](./summary.md)
-
-[Go Back to Module 1](./data-ingestion-launch-web-sdk.md)
-
-[Go Back to All Modules](./../../overview.md)
