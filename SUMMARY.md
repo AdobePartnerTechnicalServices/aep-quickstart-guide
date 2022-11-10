@@ -1,6 +1,6 @@
 # Table of contents
 
-* [AEP Quick-Start Guide and Tutorial for Solution Partners](README.md)
+* [Comprehensive Technical Tutorial for Adobe Experience Platform](README.md)
   * [Architecture](overview/architecture.md)
   * [Video Overview](overview/videos.md)
 * [0 Getting started](getting-started/README.md)
