@@ -49,3 +49,7 @@
   * [4.6 Query Service and Tableau](module4/ex6.md)
   * [4.7 Query Service API](module4/ex7.md)
   * [Summary and benefits](module4/summary.md)
+* [5 - Intelligent Services](module5/readme.me)
+  * [5.1 Customer AI - Data Preparation (Ingest)](module5/ex1.md)
+  * [5.2 Customer AI - Create a New Instance (Configure)](module5/ex2.md)
+  * [5.3 Customer AI - Scoring Dashboard and Segmentation (Predict & Take Action)](module5/ex3.md)
