@@ -1,0 +1,166 @@
+{
+	"info": {
+		"_postman_id": "e0bdb6b0-4482-4075-94eb-9f2a663c9ae7",
+		"name": "__Adobe I/O - Token",
+		"description": "Example calls to use JWT integration and authentication in Adobe I/O\n\nThis is part of the corresponding article written for the Adobe I/O blog.\n\nContact: ktukker@adobe.com",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "INIT: Load Crypto Library for RS256",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "824e628b-b420-417b-894b-417ab6412896",
+						"type": "text/javascript",
+						"exec": [
+							"postman.setGlobalVariable(\"jsrsasign-js\", responseBody);"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://kjur.github.io/jsrsasign/jsrsasign-latest-all-min.js",
+					"protocol": "http",
+					"host": [
+						"kjur",
+						"github",
+						"io"
+					],
+					"path": [
+						"jsrsasign",
+						"jsrsasign-latest-all-min.js"
+					]
+				},
+				"description": "Load the RSA-Sign Crypto LIbrary in a global environment variable\n\nSource: http://kjur.github.io/jsrsasign/jsrsasign-latest-all-min.js\n\nGithub: https://github.com/kjur/jsrsasign"
+			},
+			"response": []
+		},
+		{
+			"name": "IMS: JWT Generate + Auth",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "3aca3725-b2e7-4146-8e6f-91d72a0546ca",
+						"exec": [
+							"// Tips from: https://github.com/kjur/jsrsasign/issues/199",
+							"// https://github.com/kjur/jsrsasign/wiki/Tutorial-for-JWT-generation",
+							"",
+							"var navigator = {}; //fake a navigator object for the lib",
+							"var window = {}; //fake a window object for the lib",
+							"eval(postman.getGlobalVariable(\"jsrsasign-js\")); //import javascript jsrsasign",
+							"",
+							"",
+							"var header = {",
+							"\t\"alg\": \"RS256\"",
+							"};",
+							"",
+							"var data = {",
+							"\t\"exp\": Math.round(87000 + Date.now()/1000),",
+							"\t\"iss\": postman.getEnvironmentVariable(\"IMS_ORG\"),",
+							"\t\"sub\": postman.getEnvironmentVariable(\"TECHNICAL_ACCOUNT_ID\"),",
+							"\t\"aud\": \"https://\"+postman.getEnvironmentVariable(\"IMS\")+\"/c/\"+postman.getEnvironmentVariable(\"API_KEY\")",
+							"};",
+							"",
+							"var meta_scope = \"https://\"+postman.getEnvironmentVariable(\"IMS\")+\"/s/\"+postman.getEnvironmentVariable(\"META_SCOPE\");",
+							"data[meta_scope] = true;",
+							"",
+							"var secret = postman.getEnvironmentVariable(\"PRIVATE_KEY\");",
+							"",
+							"var sHeader = JSON.stringify(header);",
+							"var sPayload = JSON.stringify(data);",
+							"var sJWT = KJUR.jws.JWS.sign(\"RS256\", sHeader, sPayload, secret);",
+							"",
+							"console.log(sPayload);",
+							"console.log(sJWT);",
+							"",
+							"postman.setEnvironmentVariable(\"jwt_token\", sJWT);"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "691a2ea9-27d0-437b-a319-6fa991731574",
+						"exec": [
+							"var data = JSON.parse(responseBody);",
+							"postman.setEnvironmentVariable(\"access_token\", data.access_token);",
+							"postman.setEnvironmentVariable(\"ACCESS_TOKEN\", data.access_token);",
+							"postman.setEnvironmentVariable(\"IMS_TOKEN\", data.access_token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "client_id",
+							"value": "{{API_KEY}}",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "{{CLIENT_SECRET}}",
+							"type": "text"
+						},
+						{
+							"key": "jwt_token",
+							"value": "{{jwt_token}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://{{IMS}}/ims/exchange/jwt/",
+					"protocol": "https",
+					"host": [
+						"{{IMS}}"
+					],
+					"path": [
+						"ims",
+						"exchange",
+						"jwt",
+						""
+					]
+				},
+				"description": "Generate a JWT token using the Crypto RS256\nSend to IMS for access_token"
+			},
+			"response": []
+		},
+		{
+			"name": "IMS: Get Profile",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{access_token}}"
+					}
+				],
+				"url": {
+					"raw": "{{IMS}}/ims/profile/v1",
+					"host": [
+						"{{IMS}}"
+					],
+					"path": [
+						"ims",
+						"profile",
+						"v1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

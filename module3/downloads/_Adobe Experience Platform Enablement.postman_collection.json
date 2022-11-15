@@ -1,0 +1,329 @@
+{
+	"info": {
+		"_postman_id": "eb20b528-f5a4-4516-a77d-c838f66729dc",
+		"name": "_Adobe Experience Platform Enablement",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1. Unified Profile Service",
+			"item": [
+				{
+					"name": "UPS - GET Profile by Entity ID & NS",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "{{API_KEY}}"
+							},
+							{
+								"key": "x-gw-ims-org-id",
+								"value": "{{IMS_ORG}}"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{ACCESS_TOKEN}}"
+							}
+						],
+						"url": {
+							"raw": "https://platform.adobe.io/data/core/ups/access/entities?entityId=21000000000000000000144041608857636504&entityIdNS=ecid&schema.name=_xdm.context.profile",
+							"protocol": "https",
+							"host": [
+								"platform",
+								"adobe",
+								"io"
+							],
+							"path": [
+								"data",
+								"core",
+								"ups",
+								"access",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "entityId",
+									"value": "21000000000000000000144041608857636504"
+								},
+								{
+									"key": "entityIdNS",
+									"value": "ecid"
+								},
+								{
+									"key": "schema.name",
+									"value": "_xdm.context.profile"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UPS - GET Profile & EE by Entity ID & NS",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "{{API_KEY}}"
+							},
+							{
+								"key": "x-gw-ims-org-id",
+								"value": "{{IMS_ORG}}"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{ACCESS_TOKEN}}"
+							}
+						],
+						"url": {
+							"raw": "https://platform.adobe.io/data/core/ups/access/entities?schema.name=_xdm.context.experienceevent&relatedSchema.name=_xdm.context.profile&relatedEntityId=21000000000000000000144041608857636504&relatedEntityIdNS=ecid",
+							"protocol": "https",
+							"host": [
+								"platform",
+								"adobe",
+								"io"
+							],
+							"path": [
+								"data",
+								"core",
+								"ups",
+								"access",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "schema.name",
+									"value": "_xdm.context.experienceevent"
+								},
+								{
+									"key": "relatedSchema.name",
+									"value": "_xdm.context.profile"
+								},
+								{
+									"key": "relatedEntityId",
+									"value": "21000000000000000000144041608857636504"
+								},
+								{
+									"key": "relatedEntityIdNS",
+									"value": "ecid"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "298ed534-acc0-4607-b1fd-a3db256eea06",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "742517c7-1723-4f35-9de2-0c9b798607cf",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "2. Segmentation",
+			"item": [
+				{
+					"name": "Step 1 - Profile: Create A Segment Definition",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "281ff5b7-a7bb-400b-9286-fec3039185e0",
+								"exec": [
+									"var segment = JSON.parse(responseBody);",
+									"postman.setEnvironmentVariable(\"SEGMENT_ID\", segment.id);",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer {{ACCESS_TOKEN}}"
+							},
+							{
+								"key": "x-api-key",
+								"value": "{{API_KEY}}"
+							},
+							{
+								"key": "x-gw-ims-org-id",
+								"value": "{{IMS_ORG}}"
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\" : \"ldap - API - All Female Customer\",\n    \"expression\" : {\"type\":\"PQL\", \"format\":\"pql/json\", \"value\":\"{\\\"nodeType\\\":\\\"fnApply\\\",\\\"fnName\\\":\\\"in\\\",\\\"params\\\":[{\\\"nodeType\\\":\\\"fieldLookup\\\",\\\"fieldName\\\":\\\"gender\\\",\\\"object\\\":{\\\"nodeType\\\":\\\"fieldLookup\\\",\\\"fieldName\\\":\\\"person\\\",\\\"object\\\":{\\\"nodeType\\\":\\\"literal\\\",\\\"literalType\\\":\\\"XDMObject\\\",\\\"value\\\":\\\"profile\\\"}}},{\\\"literalType\\\":\\\"List\\\",\\\"nodeType\\\":\\\"literal\\\",\\\"value\\\":[\\\"female\\\"]}]}\"},\n    \"createdBy\": \"ldap\",\n    \"schema\" : { \"name\" : \"_xdm.context.profile\"},\n    \"ttlInDays\" : 90\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://platform.adobe.io/data/core/ups/segment/definitions",
+							"protocol": "https",
+							"host": [
+								"platform",
+								"adobe",
+								"io"
+							],
+							"path": [
+								"data",
+								"core",
+								"ups",
+								"segment",
+								"definitions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Step 2 - POST Segment Job",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "97dc9c53-7546-4c29-9688-a97bbca7a0b9",
+								"exec": [
+									"var data = JSON.parse(responseBody);",
+									"postman.setEnvironmentVariable(\"JOB_ID\", data.id);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "x-gw-ims-org-id",
+								"value": "{{IMS_ORG}}"
+							},
+							{
+								"key": "x-api-key",
+								"value": "{{API_KEY}}"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{ACCESS_TOKEN}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "[\n    {\n        \"segmentId\": \"{{SEGMENT_ID}}\"\n    }\n]"
+						},
+						"url": {
+							"raw": "https://platform.adobe.io/data/core/ups/segment/jobs",
+							"protocol": "https",
+							"host": [
+								"platform",
+								"adobe",
+								"io"
+							],
+							"path": [
+								"data",
+								"core",
+								"ups",
+								"segment",
+								"jobs"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Step 3 - GET Segment Job status",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "0d3cae9b-7cf7-4b4b-ab6d-f23d29a341b7",
+								"exec": [
+									"var data = JSON.parse(responseBody);",
+									"postman.setEnvironmentVariable(\"MERGEPOLICY_ID\", data.segments[0].segment.mergePolicyId);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-gw-ims-org-id",
+								"value": "{{IMS_ORG}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{ACCESS_TOKEN}}"
+							},
+							{
+								"key": "x-api-key",
+								"value": "{{API_KEY}}"
+							}
+						],
+						"url": {
+							"raw": "https://platform.adobe.io/data/core/ups/segment/jobs/{{JOB_ID}}",
+							"protocol": "https",
+							"host": [
+								"platform",
+								"adobe",
+								"io"
+							],
+							"path": [
+								"data",
+								"core",
+								"ups",
+								"segment",
+								"jobs",
+								"{{JOB_ID}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
