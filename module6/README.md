@@ -26,9 +26,9 @@ In this module, you'll configure a streaming segment and activate the segment to
 - Access to Adobe Target
 - Access to AWS S3
 
->[!IMPORTANT]
->
->This tutorial was created to facilitate a particular workshop format. It uses specific systems and accounts to which you might not have access. Even without access, we think you can still learn a lot by reading through this very detailed content. If you're a participant in one of the workshops and need your access credentials, please contact your Adobe representative who will provide you with the required information.
+{% hint style="warning" %}
+This tutorial was created to facilitate a particular workshop format. It uses specific systems and accounts to which you might not have access. Even without access, we think you can still learn a lot by reading through this very detailed content. If you're a participant in one of the workshops and need your access credentials, please contact **<spphelp@adobe.com>**, who will provide you with the required information.
+{% endhint %}
 
 ## Architecture Overview
 

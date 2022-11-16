@@ -62,3 +62,8 @@
   * [6.6 External Audiences](module6/ex6.md)
   * [6.7 Destinations SDK](module6/ex7.md)
   * [Summary and benefits](module6/summary.md)
+* [7 - Adobe Journey Optimizer: Orchestration](module7/README.md)
+  * [7.1 Create your event](module7/ex1.md)
+  * [7.2 Create your journey and email message](module7/ex2.md)
+  * [7.3 Update your Data Collection property and test your journey](module7/ex3.md)
+  * [Summary and benefits](module7/summary.md)
