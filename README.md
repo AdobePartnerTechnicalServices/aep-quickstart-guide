@@ -4,12 +4,18 @@ doc-type: multipage-overview
 hide: 'no'
 exl-id: 88c19383-c185-40f0-b118-6cb82db0ce0e
 description: >-
-  Starting point for Data Engineers, Data Analysts, Data Architects, Data
-  Scientists, Orchestration Engineers and Marketers to gain a full understanding
+  Starting point for Data Engineers\Analysts\Architects\Scientists, 
+  Orchestration Engineers, and Marketers to gain a full understanding
   of the business value of Adobe Experience Platform
 ---
 
 # AEP Quick-Start Guide and Tutorial for Solution Partners
+
+{% hint style="warning" %}
+## **This is an archive**
+
+The content in this tutorial may not be up to date, and you may experience some UI changes.
+{% endhint %}
 
 ## Overview
 
