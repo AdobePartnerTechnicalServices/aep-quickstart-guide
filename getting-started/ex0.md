@@ -29,7 +29,7 @@ Throughout this tutorial, you will see the following keys:
 
 An organization (Org ID) is the entity that enables an administrator to configure groups and users, and to control single sign-on in the Experience Cloud.
 
-You can view your organization ID, along with other account information, using a the keyboard shortcut `Ctrl+i` from any page at https://experience.adobe.com to open up the **Data Debugger**.
+You can view your organization ID, along with other account information, using a the keyboard shortcut `Ctrl+i` from any page at [https://experience.adobe.com](https://experience.adobe.com) to open up the **Data Debugger**.
 
 Under the **'User Information'** tab, you will find the **'Current Org ID'** field, which has the IMS Org ID.
 
@@ -37,9 +37,9 @@ Under the **'User Information'** tab, you will find the **'Current Org ID'** fie
 
 ## `--aepTenantId--`
 
-The AEP Tenant ID can be found in the URL: https://experience.adobe.com/#/@xxxx:
+The AEP Tenant ID can be found in the URL: **https://experience.adobe.com/#/@xxxx**
 
-For example, the AEP Tenant ID for https://experience.adobe.com/#/@aeppartner1 would be '**_aeppartner1**'
+For example, the AEP Tenant ID for **https://experience.adobe.com/#/@aeppartner1** would be '**_aeppartner1**'
 
 {% hint style='warning' %}
 **Please remember to prepend an underscore ('_') before the Tenant ID when using it for AEP purposes.**
@@ -51,9 +51,9 @@ For example, the AEP Tenant ID for https://experience.adobe.com/#/@aeppartner1 w
 
 The Sandbox ID is an identifier for the AEP environment a user is working in.
 
-It can be found in the URL after '**sname**': https://experience.adobe.com/#/@aeppartner1/sname:xxxxx
+It can be found in the URL after '**sname**': **https://experience.adobe.com/#/@aeppartner1/sname:xxxxx**
 
-For example, the Sandbox ID for https://experience.adobe.com/#/@aeppartner1/sname:aepenablementyfy21 would be '**aepenablementyfy21**'
+For example, the Sandbox ID for **https://experience.adobe.com/#/@aeppartner1/sname:aepenablementyfy21** would be '**aepenablementyfy21**'
 
 ## `--demoProfileLdap--`
 
