@@ -11,7 +11,7 @@ exl-id: 6e0a88e7-65e3-4251-8ab1-e030a397a56b
 
 {% hint style='danger' %}
 ## Previous iterations of this Tutorial referenced a Chrome Extension and Config ID; however, those features are being retired. 
-You may still access the documentation [here](./ex0a.md).
+You may still access the documentation [here](../getting-started/ex0a.md).
 {% endhint %}
 
 Throughout this tutorial, you will see the following keys:
