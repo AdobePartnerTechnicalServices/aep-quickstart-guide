@@ -45,7 +45,9 @@ Have a look at the below architecture, which highlights the components that will
 
 ## Sandbox to use
 
-For this module, please use this sandbox: `--aepSandboxId--`.
+{% hint style="info" %}
+Kindly refer to [Exercise 0.0](../getting-started/ex0.md) for instructions on how to find your Sandbox ID and other identifying values.
+{% endhint %}
 
 ## Exercises
 

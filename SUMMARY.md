@@ -4,6 +4,7 @@
   * [Architecture](overview/architecture.md)
   * [Video Overview](overview/videos.md)
 * [0 - Getting started](getting-started/README.md)
+  * [0.0 Which environment do I use?](getting-started/ex0.md)
   * [0.1 Use Demo System Next to setup your Adobe Experience Platform Data Collection client property](getting-started/ex1.md)
   * [0.2 Create your Datastream](getting-started/ex2.md)
   * [0.3 Set up the website](getting-started/ex3.md)
